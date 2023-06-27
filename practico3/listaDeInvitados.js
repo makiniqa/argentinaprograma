@@ -10,12 +10,15 @@ for (let i = 0; i < personas.length; i++) {
     };
 };
 
-console.log("La lista de invitados admitidos es: ")
+admitidos.sort()
+rechazados.sort();
+
+console.log("La lista ordenada de invitados admitidos es: ")
 for (let admitido = 0; admitido < admitidos.length; admitido++) {
     console.log(admitidos[admitido]);
 };
 
-console.log("La lista de invitados rechazados es: ")
+console.log("La lista ordenada de invitados rechazados es: ")
 for (let rechazado = 0; rechazado < rechazados.length; rechazado++) {
     console.log(rechazados[rechazado]);
 };
